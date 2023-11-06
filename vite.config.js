@@ -3,5 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: ' fleetwoodmab.github.io/app2/',
   plugins: [svelte()],
 })
